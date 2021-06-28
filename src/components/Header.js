@@ -1,5 +1,5 @@
 import React from "react";
-import ticketsImage from "./../img/tickets.jpg";
+import ticketsImage from "./../img/ticket.jpg";
 
 function Header(){
   return (
