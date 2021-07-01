@@ -21,3 +21,5 @@ TicketDetail.propTypes = {
 };
 
 export default TicketDetail;
+
+
