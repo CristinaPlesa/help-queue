@@ -26,11 +26,17 @@ class TicketControl extends React.Component {
     }));
   }
 
+  handleAddingNewTicketToList = (newTicket) => {
+    const newMasterTicketList = this.state.masterTicketList.concat(newTicket);
+    this.setState({masterTicketList: newMasterTicketList,
+                  formVisibleOnPage: false });
+  }
+  
   render(){
     let currentlyVisibleState = null;
     let buttonText = null; // new code
     if (this.state.formVisibleOnPage) {
-      currentlyVisibleState = <NewTicketForm />;
+      currentlyVisibleState = <NewTicketForm onNewTicketCreation={this.handleAddingNewTicketToList} /> // new code in this line }
       buttonText = "Return to Ticket List";
     } else {
       currentlyVisibleState = <TicketList ticketList={this.state.masterTicketList} />; // new code
