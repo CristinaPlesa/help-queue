@@ -9,13 +9,21 @@ class TicketControl extends React.Component {
     this.state = {
       formVisibleOnPage: false
     };
+    this.handleClick = this.handleClick.bind(this); //new code here
   }
 
-  handleClick = () => {
+  handleClick() {
     this.setState(prevState => ({
       formVisibleOnPage: !prevState.formVisibleOnPage
     }));
   }
+
+  // this works too. Has arrow notation, so bind() would not be needed to recognize the lexical scope of this.
+  // handleClick = () => {
+  //   this.setState(prevState => ({
+  //     formVisibleOnPage: !prevState.formVisibleOnPage
+  //   }));
+  // }
 
   render(){
     let currentlyVisibleState = null;
