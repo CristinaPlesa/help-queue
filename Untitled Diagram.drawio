@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T03:07:43.957Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.3" etag="GDlACezCM3-nYwi8cC3_" type="github"><diagram id="s1bC5ppiXoEt5R0zqFaq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-01T03:18:27.478Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="u65-oFXSGe90me0BEBLV" version="14.8.3" type="github">
+  <diagram id="s1bC5ppiXoEt5R0zqFaq" name="Page-1">
+    <mxGraphModel dx="946" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3lW47hw-iwdH1v94RYdx-1" value="App" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="220" width="810" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="3lW47hw-iwdH1v94RYdx-2" value="NewTicketControl&lt;br&gt;The component will determine whether the TicketList or NewTicketForm component is showing" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="330" width="750" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="3lW47hw-iwdH1v94RYdx-3" value="Header" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="250" width="750" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3lW47hw-iwdH1v94RYdx-4" value="TicketList" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="390" width="330" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="3lW47hw-iwdH1v94RYdx-5" value="NewTicketForm" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="430" y="390" width="340" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="3lW47hw-iwdH1v94RYdx-6" value="Submit&lt;br&gt;Clicking this button will add a ticket and then show the TicketList component." style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="460" y="620" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3lW47hw-iwdH1v94RYdx-7" value="Add Ticket&lt;br&gt;Clicking on this button will show the NewTicketForm. This button will live in the NewTicketControl component." style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="650" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3lW47hw-iwdH1v94RYdx-8" value="Ticket&lt;br&gt;Clicking on a ticket will show a ticket&#39;s ticket detail." style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="90" y="420" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3lW47hw-iwdH1v94RYdx-9" value="Ticket" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="90" y="490" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3lW47hw-iwdH1v94RYdx-10" value="Ticket" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="90" y="560" width="310" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
