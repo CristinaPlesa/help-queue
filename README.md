@@ -1,3 +1,7 @@
+# Diagram Component Build
+
+<img src="./src/img/Help-Queue.png" alt="Diagram of Project Components">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
