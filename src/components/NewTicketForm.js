@@ -14,7 +14,7 @@ function NewTicketForm(props){ // Make sure to add props as a parameter.
     <React.Fragment>
       <ReusableForm 
         formSubmissionHandler={handleNewTicketFormSubmission}
-        buttonText="Help!" />
+        buttonText="Add Ticket!" />
     </React.Fragment>
   );
 }

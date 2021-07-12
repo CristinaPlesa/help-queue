@@ -7,8 +7,8 @@ function Ticket(props){
       <div onClick = {() => props.whenTicketClicked(props.id)}>
         <h3>{props.location} - {props.names}</h3>
         <p><em>{props.issue}</em></p>
-        <hr/>
       </div>
+      <hr/>
     </React.Fragment>
   );
 }
