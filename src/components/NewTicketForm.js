@@ -10,12 +10,6 @@ function NewTicketForm(props){ // Make sure to add props as a parameter.
     props.onNewTicketCreation({names: event.target.names.value, location: event.target.location.value, issue: event.target.issue.value, id: v4()});
   }
   
-  // We also need to add PropTypes for our new prop.
-  
-  NewTicketForm.propTypes = {
-    onNewTicketCreation: PropTypes.func
-  };
-
   return (
     <React.Fragment>
       <ReusableForm 
@@ -24,5 +18,11 @@ function NewTicketForm(props){ // Make sure to add props as a parameter.
     </React.Fragment>
   );
 }
+
+// We also need to add PropTypes for our new prop.
+
+NewTicketForm.propTypes = {
+  onNewTicketCreation: PropTypes.func
+};
 
 export default NewTicketForm;
