@@ -1,25 +1,31 @@
 import React from "react";
-import ReusableForm from "./ReusableForm";
 import { v4 } from 'uuid';
-import PropTypes from "prop-types"; //import PropTypes
+import PropTypes from "prop-types";
+import ReusableForm from "./ReusableForm";
+import Moment from 'moment';
 
-function NewTicketForm(props){ // Make sure to add props as a parameter.
+function NewTicketForm(props){
 
   function handleNewTicketFormSubmission(event) {
     event.preventDefault();
-    props.onNewTicketCreation({names: event.target.names.value, location: event.target.location.value, issue: event.target.issue.value, id: v4()});
+    props.onNewTicketCreation({
+      names: event.target.names.value,
+      location: event.target.location.value,
+      issue: event.target.issue.value,
+      id: v4(),
+      timeOpen: new Moment(),
+      formattedWaitTime: new Moment().fromNow(true)
+    });
   }
-  
+
   return (
     <React.Fragment>
       <ReusableForm 
         formSubmissionHandler={handleNewTicketFormSubmission}
-        buttonText="Add Ticket!" />
+        buttonText="Help!" />
     </React.Fragment>
   );
 }
-
-// We also need to add PropTypes for our new prop.
 
 NewTicketForm.propTypes = {
   onNewTicketCreation: PropTypes.func
